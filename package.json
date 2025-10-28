@@ -1,0 +1,23 @@
+{
+  "name": "academic-portfolio",
+  "version": "1.0.0",
+  "description": "Academic portfolio website based on Jon Barron's template",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 preview_server.py",
+    "serve": "npx http-server -p 8000 -o",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "echo 'See README.md for deployment instructions'"
+  },
+  "keywords": [
+    "academic",
+    "portfolio",
+    "research",
+    "computer-vision"
+  ],
+  "author": "Joonyeoup Kim",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
